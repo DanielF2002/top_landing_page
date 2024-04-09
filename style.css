@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #f9fafb;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.main {
+    flex: 1;
+}
+
+.header, .first-page, .footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.second-page {
+    text-align: center;
+}
+
+.third-page {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.container {
+    padding: 16px 196px;
+}
+
+.first-page, .third-page {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.second-page {
+    padding-bottom: 72px;
+}
+
+.second-page, .third-page {
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.header .container, .first-page .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-page .left, .first-page .right {
+    flex: 1;
+    align-items: center;
+}
+
+.forth-page .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.forth-page .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 36px 64px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap:48px;
+    margin-top: 48px;
+}
+
+.author {
+    text-align: right;
+    margin-top: 24px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9fafb;
+}
+
+.header-link, .first-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-secondary {
+    margin-bottom: 36px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: #f9fafb;
+    padding: 8px 24px;
+    border-radius: 5px;
+}
+
+.footer {
+    padding: 16px;
+    text-align: center;
+}
+
+.forth-page .left {
+    flex: 2;
+}
+
+.forth-page .right {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.forth-page p {
+    color: #e5e7eb;
+}
+
+.forth-page h3 {
+    color: #f9fafb;
+}
+
+.forth-page .btn {
+    border: solid #e5e7eb;
+}
+
+.card img {
+    border-radius: 10px;
+}
